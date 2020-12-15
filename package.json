@@ -1,0 +1,33 @@
+{
+  "name": "test-scrappingbee",
+  "version": "1.0.0",
+  "description": "Test Scraping Bee",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": ""
+  },
+  "keywords": [
+    "Web",
+    "scraping"
+  ],
+  "author": "Lemon Labs",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dom-parser": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^2.0.0",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
